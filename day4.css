@@ -1,0 +1,52 @@
+.transition {
+  display: flex;
+  height: 100px;
+  width: 200px;
+  background-color: rgb(255, 34, 0);
+  transition: height, width, margin;
+  transition-duration: 5s;
+  margin: 30px;
+}
+.transition:hover {
+  margin: 50px;
+  height: 10px;
+  width: 300px;
+  transition-timing-function: ease-in;
+}
+.display {
+  display: flex;
+}
+.animation {
+  margin: 30px;
+  height: 30px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: bisque;
+  animation-name: widthanimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes widthanimation {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: aquamarine;
+    /* transform: rotateX("30deg"); */
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    bottom: 200px;
+  }
+  100% {
+    right: 0px;
+    bottom: 0px;
+  }
+}

@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav {
+  height: 75px;
+  width: 100%;
+  background-color: rgb(66, 68, 99);
+}
+.navsec {
+  height: 75px;
+  width: 90%;
+  /* background-color: rgb(227, 176, 114); */
+  margin: 0px auto;
+  display: flex;
+}
+.nav1 {
+  /* border: 2px solid red; */
+  height: 75px;
+  width: 10%;
+  /* background-color: rgb(95, 48, 205); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+}
+.nav2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  /* border: 2px solid; */
+  height: 100%;
+  width: 70%;
+  /* background-color: rgb(112, 106, 128); */
+}
+.nav2 span {
+  /* border: 2px solid; */
+  width: 100%;
+  color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.nav3 {
+  width: 20%;
+  /* background-color: rgb(134, 226, 43); */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.nav3 button {
+  font-size: 18px;
+  color: rgb(0, 255, 0);
+  height: fit-content;
+  margin: auto;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10%;
+}
+.nav3 button a {
+  text-decoration: none;
+}
+.nav3 button:hover {
+  transition: ease;
+  transition-duration: 2s;
+  background-color: rgb(220, 175, 202);
+  scale: 1.2;
+  border: 1px solid red;
+}
+.mainbodydiv {
+  height: fit-content;
+  width: 100%;
+  /* background-color: bisque; */
+}
+.bodysec {
+  width: 90%;
+  margin: 0 auto;
+  background-image: linear-gradient(45deg, rgb(101, 101, 232), skyblue);
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 112.3px;
+  row-gap: 10px;
+  padding-top: 10px;
+}
+.bodydiv {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://st.depositphotos.com/1664950/3419/i/950/depositphotos_34193595-stock-photo-beautiful-roses-and-butterfly-flower.jpg);
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid; */
+  border-radius: 15px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.bodysec :hover {
+  transition: ease;
+  scale: 1.05;
+  transition-duration: 3s;
+}
+.sec3 {
+  height: 40vh;
+  width: 100%;
+  background-color: rgba(50, 76, 76, 0.757);
+  /* border-radius: 1px; */
+  /* border: 1px solid; */
+}
+.footer3 {
+  height: 35vh;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer3 table {
+  height: 35vh;
+  width: 100%;
+  /* border: 1px solid; */
+  padding-top: 10px;
+}
+.footer3 table td {
+  /* border: 2px solid; */
+}

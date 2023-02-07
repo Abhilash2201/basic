@@ -1,0 +1,53 @@
+*body {
+  height: 100vh;
+  width: 100%;
+}
+.background1 {
+  height: 50vh;
+  width: 100%;
+  font-size: 32px;
+  color: #00ff77;
+  font-size: larger;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(43, 88, 138),
+    rgb(100, 50, 244),
+    yellow
+  );
+}
+.colour1 {
+  color: rgb(255, 00, 00);
+  height: 25vh;
+  width: 100%;
+  background-color: aqua;
+  font-size: 32px;
+  background-image: linear-gradient(to bottom, rgb(143, 24, 24), green, yellow);
+}
+.colour2 {
+  color: rgb(255, 255, 255);
+  height: 25vh;
+  width: 100%;
+  font-size: 32px;
+  background-image: linear-gradient(to top, red, green, blue);
+}
+.colour3 {
+  color: hsl(#0044ff);
+  font-size: 32px;
+  height: 25vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom left, red, rgb(85, 128, 0), blue);
+}
+.colour4 {
+  color: hsla(#00ff77);
+  font-size: 32px;
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(circle, red, rgb(237, 233, 9), blue);
+}
+.radialgrad {
+  color: hsla(#00ff77);
+  font-size: 32px;
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(ellipse, red, rgb(237, 233, 9), blue);
+}

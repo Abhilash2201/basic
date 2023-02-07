@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- html 4 audio format -->
+    <audio controls src="./audiovideo/file.mp4"></audio>
+    <!-- html 4 video format -->
+    <video controls src="./file.mp4" height="300px" width="300px"></video>
+    <!-- html 5 -->
+    <video controls loop height="300px" width="500px">
+      <source src="./audiovideo/file.mp4" />
+      <source src="./audiovideo/file.mp4" />
+      <source src="./audiovideo/file.mp4" />
+    </video>
+    <!-- iframe -->
+    <h3>i am iframe</h3>
+    <iframe src="./audiovideo/newfileforiframe.html" frameborder="3"></iframe>
+    <!-- table -->
+    <table border="4px">
+      <tr>
+        <th rowspan="3">day</th>
+        <th colspan="3 ">seminar</th>
+      </tr>
+      <tr>
+        <th colspan="2">schedule</th>
+        <th rowspan="2">topic</th>
+      </tr>
+      <tr>
+        <th>begin</th>
+        <th>end</th>
+      </tr>
+      <tr>
+        <th rowspan="2">monday</th>
+        <th rowspan="2">8:00pm</th>
+        <th rowspan="2">5:00pm</th>
+        <th>introduction to xml</th>
+      </tr>
+      <tr>
+        <th>validity dtd and relax ng</th>
+      </tr>
+      <tr>
+        <th rowspan="3">tuesday</th>
+        <th>8:00</th>
+        <th>11:00</th>
+        <th rowspan="2">xpath</th>
+      </tr>
+      <tr>
+        <th>11:00</th>
+        <th>2:00</th>
+      </tr>
+      <tr>
+        <th>5:00</th>
+        <th>11:00</th>
+        <th>xls transform</th>
+      </tr>
+      <tr>
+        <th>wednesday</th>
+        <th>8:00a.m</th>
+        <th>12:00p.m</th>
+        <th>xsl formatting object</th>
+      </tr>
+    </table>
+    <!--form inside the table  -->
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <label for="name"> Name:</label>
+          </td>
+          <td>
+            <input type="text" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="pass">Password</label></td>
+          <td><input type="password" id="pass" /></td>
+        </tr>
+        <tr>
+          <td><label for="num">Phonenumber</label></td>
+          <td><input type="tel" id="num" maxlength="10" /></td>
+        </tr>
+        <tr>
+          <td><label for="gen">Gender</label></td>
+          <td>
+            <input type="radio" />male <input type="radio" />female
+            <input type="radio" id="gen" />
+            others
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lan">Language</label></td>
+          <td>
+            <select name="" id="lan">
+              <option value="s">html</option>
+              <option value="z">css</option>
+              <option value="x">js</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="zip">ZipCode</label></td>
+          <td><input type="number" id="zip" /></td>
+        </tr>
+        <tr>
+          <td><label for="about">About</label></td>
+          <td><textarea rows="20" cols="30" id="about"></textarea></td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="" id="" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
